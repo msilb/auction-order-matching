@@ -9,11 +9,11 @@ Current limitations:
 
 ### Phase 1: Book Building
 
-In this first phase an order book is open and accepts orders. Orders may be also modified/amended and cancelled
+In this first phase an order book is open and accepts new orders. Orders may also be modified/amended or cancelled.
 
 ### Phase 2: Price Determination Phase
 
-Once Matching is initiated, order book is closed and no more new orders are accepted.
+Once Matching is initiated, order book is closed and no more orders are accepted.
 
 First of all, orders are grouped and sorted by
 1. Side: Buy (Bid) or Sell (Ask)
