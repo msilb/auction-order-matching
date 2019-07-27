@@ -19,7 +19,7 @@ Once Matching is initiated, order book is closed and no more orders are accepted
 
 First of all, orders are grouped and sorted by
 1. Side: Buy (Bid) or Sell (Ask)
-2. Limit Price: Buy orders with higher limit price and Sell orders with lower limit price have higher priority for execution. In case of multiple orders having the same limit price, orders which arrived earlier (time priority) have higher priority.
+2. Limit Price: Buy orders with higher limit price and Sell orders with lower limit price have higher priority for execution (_price priority_). In case of multiple orders having the same limit price, orders which arrived earlier (_time priority_) have higher priority.
 
 Next, total volume for each price point is determined on both sides of the order book (Bid and Ask).
 
