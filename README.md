@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/msilb/auction-order-matching.svg?branch=master)](https://travis-ci.org/msilb/auction-order-matching)
+
 # Price-Time Priority Order Matching Engine for Auctions
 
 This is an attempt to implement a simplified version of the order matching engines used in auctions (e.g. during opening or closing) on major exchanges.
